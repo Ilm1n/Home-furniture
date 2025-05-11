@@ -193,7 +193,7 @@ function resetFilters() {
 
     <div v-if="!filteredProducts.length" class="empty-state">
       <div class="empty-content">
-        <img src="/cart.svg" alt="Пусто" class="empty-image" />
+        <img src="/Home-furniture/cart.svg" alt="Пусто" class="empty-image" />
         <p class="empty-text">Товары не найдены по выбранным фильтрам</p>
         <button class="reset-btn" @click="resetFilters">
           Сбросить фильтры

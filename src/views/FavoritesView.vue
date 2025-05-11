@@ -48,7 +48,7 @@ function emptyFavorite() {
     </div>
 
     <div v-else-if="isEmpty" class="empty-favorites">
-      <img src="/heart.svg" class="empty-image" alt="Пусто" />
+      <img src="/Home-furniture/heart.svg" class="empty-image" alt="Пусто" />
       <p>Вы пока ничего не добавили в избранное</p>
       <router-link to="/catalog" class="continue-shopping-btn">
         Перейти к покупкам →

@@ -296,17 +296,17 @@
     {
       value: 'card',
       name: 'Картой онлайн',
-      icon: '/card.svg'
+      icon: '/Home-furniture/card.svg'
     },
     {
       value: 'cash',
       name: 'Наличными',
-      icon: '/cash.svg'
+      icon: '/Home-furniture/cash.svg'
     },
     {
       value: 'invoice',
       name: 'По счету',
-      icon: '/invoice.svg'
+      icon: '/Home-furniture/invoice.svg'
     }
   ]);
   

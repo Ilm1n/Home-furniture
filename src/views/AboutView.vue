@@ -16,7 +16,10 @@
     <section class="philosophy">
       <div class="philosophy-content">
         <div class="philosophy-image">
-          <img src="/images/about/philosophy.webp" alt="Наше производство" />
+          <img
+            src="/Home-furniture/images/about/philosophy.webp"
+            alt="Наше производство"
+          />
         </div>
         <div class="philosophy-text">
           <h2>Наша философия</h2>
@@ -115,7 +118,10 @@
       <div class="team-grid">
         <div class="team-member">
           <div class="member-photo">
-            <img src="/images/about/member1.webp" alt="Алексей Петров" />
+            <img
+              src="/Home-furniture/images/about/member1.webp"
+              alt="Алексей Петров"
+            />
             <div class="member-social">
               <a href="#" class="social-link green-bg">in</a>
             </div>
@@ -126,7 +132,10 @@
         </div>
         <div class="team-member">
           <div class="member-photo">
-            <img src="/images/about/member2.webp" alt="Мария Иванова" />
+            <img
+              src="/Home-furniture/images/about/member2.webp"
+              alt="Мария Иванова"
+            />
             <div class="member-social">
               <a href="#" class="social-link green-bg">in</a>
             </div>
@@ -137,7 +146,10 @@
         </div>
         <div class="team-member">
           <div class="member-photo">
-            <img src="/images/about/member3.webp" alt="Дмитрий Смирнов" />
+            <img
+              src="/Home-furniture/images/about/member3.webp"
+              alt="Дмитрий Смирнов"
+            />
             <div class="member-social">
               <a href="#" class="social-link green-bg">in</a>
             </div>
