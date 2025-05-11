@@ -72,7 +72,7 @@
         <div class="trends-grid">
           <div class="trend-item">
             <img
-              src="/Home-furniture/images/home-page/2025trend1.webp"
+              :src="import.meta.env.BASE_URL + '/images/home-page/2025trend1.webp'"
               alt="Тренд"
             />
             <div class="trend-info">
@@ -82,7 +82,7 @@
           </div>
           <div class="trend-item">
             <img
-              src="/Home-furniture/images/home-page/2025trend2.webp"
+              :src="import.meta.env.BASE_URL + '/images/home-page/2025trend2.webp'"
               alt="Тренд"
             />
             <div class="trend-info">
@@ -137,7 +137,7 @@
       </div>
       <div class="offer-image">
         <img
-          src="/Home-furniture/images/home-page/special-offer.webp"
+          :src="import.meta.env.BASE_URL + '/images/home-page/special-offer.webp'"
           alt="Специальное предложение"
         />
       </div>
@@ -149,7 +149,7 @@
         <div class="testimonial-card">
           <div class="testimonial-header">
             <img
-              src="/Home-furniture/images/reviews/fake-female.webp"
+              :src="import.meta.env.BASE_URL + '/images/reviews/fake-female.webp'"
               alt="Пользователь"
               class="user-avatar"
             />
@@ -166,7 +166,7 @@
         <div class="testimonial-card">
           <div class="testimonial-header">
             <img
-              src="/Home-furniture/images/reviews/fake-male.webp"
+              :src="import.meta.env.BASE_URL + '/images/reviews/fake-male.webp'"
               alt="Пользователь"
               class="user-avatar"
             />

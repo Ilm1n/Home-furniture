@@ -32,7 +32,7 @@ function emptyCart() {
     <h2 class="cart-title">Ваша корзина</h2>
 
     <div v-if="cart.length === 0" class="empty-cart">
-      <img src="/Home-furniture/cart.svg" alt="Корзина пуста" class="empty-image" />
+      <img :src="import.meta.env.BASE_URL + '/cart.svg'" alt="Корзина пуста" class="empty-image" />
       <p class="empty-text">Ваша корзина пока пуста</p>
       <router-link to="/catalog" class="continue-shopping-btn">
         Перейти к покупкам →
