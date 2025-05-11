@@ -6,3 +6,5 @@
 «Интернет-магазин мебели «Home»
 
 Минин И.В
+
+ссылка на github pages: https://ilm1n.github.io/Home-furniture/
