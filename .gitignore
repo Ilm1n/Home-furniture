@@ -1,0 +1,26 @@
+# Node.js зависимости
+node_modules/
+
+# Логи и временные файлы
+dist/
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite
+.vite/
+
+# macOS / Windows системные файлы (на всякий случай)
+.DS_Store
+Thumbs.db
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
