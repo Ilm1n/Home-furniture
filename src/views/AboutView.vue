@@ -17,7 +17,7 @@
       <div class="philosophy-content">
         <div class="philosophy-image">
           <img
-            :src="import.meta.env.BASE_URL + '/images/about/philosophy.webp'"
+            :src="base + '/images/about/philosophy.webp'"
             alt="Наше производство"
           />
         </div>
@@ -119,7 +119,7 @@
         <div class="team-member">
           <div class="member-photo">
             <img
-              :src="import.meta.env.BASE_URL + '/images/about/member1.webp'"
+              :src="base + '/images/about/member1.webp'"
               alt="Алексей Петров"
             />
             <div class="member-social">
@@ -133,7 +133,7 @@
         <div class="team-member">
           <div class="member-photo">
             <img
-              :src="import.meta.env.BASE_URL + '/images/about/member2.webp'"
+              :src="base + '/images/about/member2.webp'"
               alt="Мария Иванова"
             />
             <div class="member-social">
@@ -147,7 +147,7 @@
         <div class="team-member">
           <div class="member-photo">
             <img
-              :src="import.meta.env.BASE_URL + '/images/about/member3.webp'"
+              :src="base + '/images/about/member3.webp'"
               alt="Дмитрий Смирнов"
             />
             <div class="member-social">
@@ -177,6 +177,10 @@
     </section>
   </div>
 </template>
+
+<script setup>
+const base = import.meta.env.BASE_URL
+</script>
 
 <style scoped>
 .about-page {

@@ -120,6 +120,8 @@ function resetFilters() {
   searchQuery.value = "";
   currentPage.value = 1;
 }
+
+const base = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -193,7 +195,7 @@ function resetFilters() {
 
     <div v-if="!filteredProducts.length" class="empty-state">
       <div class="empty-content">
-        <img :src="import.meta.env.BASE_URL + '/cart.svg'" alt="Пусто" class="empty-image" />
+        <img :src="base + '/cart.svg'" alt="Пусто" class="empty-image" />
         <p class="empty-text">Товары не найдены по выбранным фильтрам</p>
         <button class="reset-btn" @click="resetFilters">
           Сбросить фильтры

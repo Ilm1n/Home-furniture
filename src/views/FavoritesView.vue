@@ -16,6 +16,8 @@ function emptyFavorite() {
   clearFavorites()
   favorites.value = []
 }
+
+const base = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -48,7 +50,7 @@ function emptyFavorite() {
     </div>
 
     <div v-else-if="isEmpty" class="empty-favorites">
-      <img :src="import.meta.env.BASE_URL + '/heart.svg'" class="empty-image" alt="Пусто" />
+      <img :src="base + '/heart.svg'" class="empty-image" alt="Пусто" />
       <p>Вы пока ничего не добавили в избранное</p>
       <router-link to="/catalog" class="continue-shopping-btn">
         Перейти к покупкам →
