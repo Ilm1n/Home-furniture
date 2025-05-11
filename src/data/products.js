@@ -1,10 +1,12 @@
+const base = import.meta.env.BASE_URL
+
 export const products = [
   {
     id: 1,
     name: "Шкаф-купе 'Модерн'",
     description: "Вместительный трехстворчатый шкаф-купе с зеркальными дверями. Внутреннее пространство включает полки, штангу для вешалок и выдвижные ящики. Глубина 60 см, высота 220 см. Система плавного закрывания дверей.",
     price: 18990,
-    image: "/images/products/product1.webp",
+    image: `${base}/images/products/product1.webp`,
     category: "Шкафы",
     color: "Красный"
   },
@@ -13,7 +15,7 @@ export const products = [
     name: "Гардероб 'Классик'",
     description: "Двухдверный шкаф с распашными дверями из массива сосны. Внутри две полки и перекладина для вешалок. Габариты 120x55x210 см. Ручки из металла с антикоррозийным покрытием.",
     price: 12450,
-    image: "/images/products/product2.webp",
+    image: `${base}/images/products/product2.webp`,
     category: "Шкафы",
     color: "Красный"
   },
@@ -22,7 +24,7 @@ export const products = [
     name: "Обеденный стол 'Милан'",
     description: "Квадратный стол из МДФ с декоративной кромкой. Размер столешницы 90x90 см, высота 75 см. Устойчивые металлические ножки с регулировкой по высоте ±3 см. Выдерживает нагрузку до 50 кг.",
     price: 7890,
-    image: "/images/products/product3.webp",
+    image: `${base}/images/products/product3.webp`,
     category: "Столы",
     color: "Желтый"
   },
@@ -31,7 +33,7 @@ export const products = [
     name: "Шкаф для прихожей 'Компакт'",
     description: "Узкий шкаф для прихожей с зеркалом на дверце. Включает крючки для одежды, полку для головных уборов и отделение для обуви. Габариты 40x35x180 см. Материал - ЛДСП.",
     price: 8450,
-    image: "/images/products/product4.webp",
+    image: `${base}/images/products/product4.webp`,
     category: "Шкафы",
     color: "Зеленый"
   },
@@ -40,7 +42,7 @@ export const products = [
     name: "Стул 'Офисный'",
     description: "Комфортабельный офисный стул с регулируемой высотой сиденья и наклоном спинки. Обивка из износостойкого текстиля, наполнитель - пенополиуретан. Максимальная нагрузка 120 кг.",
     price: 4290,
-    image: "/images/products/product5.webp",
+    image: `${base}/images/products/product5.webp`,
     category: "Стулья",
     color: "Красный"
   },
@@ -49,7 +51,7 @@ export const products = [
     name: "Барный стул 'Лофт'",
     description: "Стул высотой 75 см с металлическим каркасом и деревянным сиденьем. Подходит для кухонных островов и барных стоек. Усиленная конструкция выдерживает до 100 кг.",
     price: 3250,
-    image: "/images/products/product6.webp",
+    image: `${base}/images/products/product6.webp`,
     category: "Стулья",
     color: "Белый"
   },
@@ -58,7 +60,7 @@ export const products = [
     name: "Шкаф для белья 'Уют'",
     description: "Компактный шкаф с тремя выдвижными ящиками для хранения постельного белья и полотенец. Габариты 60x45x80 см. Направляющие ящиков с системой плавного закрывания.",
     price: 6790,
-    image: "/images/products/product7.webp",
+    image: `${base}/images/products/product7.webp`,
     category: "Шкафы",
     color: "Красный"
   },
@@ -67,7 +69,7 @@ export const products = [
     name: "Кресло 'Гостевой'",
     description: "Мягкое кресло с деревянными ножками и тканевой обивкой. Размеры 65x65x85 см. Каркас из массива березы, наполнитель - высокоэластичный пенополиуретан.",
     price: 5890,
-    image: "/images/products/product8.webp",
+    image: `${base}/images/products/product8.webp`,
     category: "Стулья",
     color: "Розовый"
   },
@@ -76,7 +78,7 @@ export const products = [
     name: "Шкаф для документов 'Офис'",
     description: "Металлический шкаф с двумя отделениями и замком. Идеален для хранения документов и ценных вещей. Габариты 90x40x180 см. Толщина металла 0.8 мм.",
     price: 11200,
-    image: "/images/products/product9.webp",
+    image: `${base}/images/products/product9.webp`,
     category: "Шкафы",
     color: "Черный"
   },
@@ -85,7 +87,7 @@ export const products = [
     name: "Тумба ТВ 'Медиа'",
     description: "Телевизионная тумба с двумя дверцами и открытой полкой. Длина 120 см, глубина 40 см. Материал - ЛДСП с ПВХ-кромкой. Выдерживает телевизоры до 32 дюймов.",
     price: 7590,
-    image: "/images/products/product10.webp",
+    image: `${base}/images/products/product10.webp`,
     category: "Шкафы",
     color: "Белый"
   },
@@ -94,7 +96,7 @@ export const products = [
     name: "Журнальный столик 'Мини'",
     description: "Круглый столик диаметром 60 см на металлической ножке. Столешница из закаленного стекла толщиной 8 мм. Высота 45 см. Подходит для гостиных.",
     price: 4290,
-    image: "/images/products/product11.webp",
+    image: `${base}/images/products/product11.webp`,
     category: "Столы",
     color: "Желтый"
   },
@@ -103,7 +105,7 @@ export const products = [
     name: "Компьютерный стол 'Профи'",
     description: "Удобный стол для работы за компьютером с выдвижной полкой для клавиатуры. Размер столешницы 120x60 см. Регулируемые по высоте ножки (70-80 см).",
     price: 8990,
-    image: "/images/products/product12.webp",
+    image: `${base}/images/products/product12.webp`,
     category: "Столы",
     color: "Белый"
   },
@@ -112,7 +114,7 @@ export const products = [
     name: "Шкаф для посуды 'Буфет'",
     description: "Классический буфет с двумя распашными дверцами и тремя полками внутри. Габариты 80x45x120 см. Материал - массив сосны с защитным лаковым покрытием.",
     price: 14500,
-    image: "/images/products/product13.webp",
+    image: `${base}/images/products/product13.webp`,
     category: "Шкафы",
     color: "Желтый"
   },
@@ -121,7 +123,7 @@ export const products = [
     name: "Витрина 'Антик'",
     description: "Декоративная витрина с двумя стеклянными дверцами и внутренней подсветкой. Полки из закаленного стекла. Габариты 100x40x180 см.",
     price: 21800,
-    image: "/images/products/product14.webp",
+    image: `${base}/images/products/product14.webp`,
     category: "Шкафы",
     color: "Черный"
   },
@@ -130,7 +132,7 @@ export const products = [
     name: "Стул кухонный 'Базовый'",
     description: "Простой и надежный стул для кухни с пластиковым сиденьем и металлическим каркасом. Высота 45 см. Максимальная нагрузка 100 кг.",
     price: 1890,
-    image: "/images/products/product15.webp",
+    image: `${base}/images/products/product15.webp`,
     category: "Стулья",
     color: "Розовый"
   },
@@ -139,7 +141,7 @@ export const products = [
     name: "Кресло-качалка 'Релакс'",
     description: "Деревянное кресло-качалка с подлокотниками. Размеры 65x90x95 см. Материал - массив бука. Вес 8.5 кг. Подходит для террас и гостиных.",
     price: 11200,
-    image: "/images/products/product16.webp",
+    image: `${base}/images/products/product16.webp`,
     category: "Стулья",
     color: "Красный"
   },
@@ -148,7 +150,7 @@ export const products = [
     name: "Шкаф для обуви 'Прихожая'",
     description: "Узкий шкаф с тремя полками для хранения обуви. Габариты 100x30x90 см. Вентилируемые полки. Материал - ЛДСП с влагостойкой обработкой.",
     price: 5490,
-    image: "/images/products/product17.webp",
+    image: `${base}/images/products/product17.webp`,
     category: "Шкафы",
     color: "Белый"
   },
@@ -157,7 +159,7 @@ export const products = [
     name: "Письменный стол 'Школьник'",
     description: "Стол для занятий с регулируемым наклоном столешницы (0-30 градусов). В комплекте выдвижной ящик. Размеры 110x60x75 см.",
     price: 6790,
-    image: "/images/products/product18.webp",
+    image: `${base}/images/products/product18.webp`,
     category: "Столы",
     color: "Черный"
   },
@@ -166,7 +168,7 @@ export const products = [
     name: "Кофейный столик 'Квадрат'",
     description: "Небольшой столик со столешницей 50x50 см и нижней полкой. Высота 45 см. Материал - МДФ с ПВХ-покрытием.",
     price: 3290,
-    image: "/images/products/product19.webp",
+    image: `${base}/images/products/product19.webp`,
     category: "Столы",
     color: "Красный"
   },
@@ -175,7 +177,7 @@ export const products = [
     name: "Шкаф-пенал 'Стандарт'",
     description: "Высокий узкий шкаф с двумя дверцами и внутренними полками. Габариты 45x40x210 см. Подходит для хранения одежды в небольших помещениях.",
     price: 8790,
-    image: "/images/products/product20.webp",
+    image: `${base}/images/products/product20.webp`,
     category: "Шкафы",
     color: "Белый"
   },
@@ -184,7 +186,7 @@ export const products = [
     name: "Шкаф для книг 'Библио'",
     description: "Книжный шкаф с пятью открытыми полками. Габариты 80x30x180 см. Каждая полка выдерживает до 15 кг. Материал - ЛДСП 16 мм.",
     price: 7590,
-    image: "/images/products/product21.webp",
+    image: `${base}/images/products/product21.webp`,
     category: "Шкафы",
     color: "Желтый"
   },
@@ -193,7 +195,7 @@ export const products = [
     name: "Стол раскладной 'Гость'",
     description: "Компактный стол с механизмом раскладывания до размеров 120x80 см. В сложенном состоянии занимает 40x80 см. Высота 75 см.",
     price: 5890,
-    image: "/images/products/product22.webp",
+    image: `${base}/images/products/product22.webp`,
     category: "Столы",
     color: "Розовый"
   },
@@ -202,7 +204,7 @@ export const products = [
     name: "Шкаф угловой 'Эконом'",
     description: "Угловой шкаф для экономии пространства. Включает две полки и перекладину для вешалок. Габариты 90x90x210 см.",
     price: 9890,
-    image: "/images/products/product23.webp",
+    image: `${base}/images/products/product23.webp`,
     category: "Шкафы",
     color: "Красный"
   },
@@ -211,7 +213,7 @@ export const products = [
     name: "Шкаф для ванной 'Аква'",
     description: "Влагостойкий шкаф с двумя дверцами и полкой внутри. Габариты 60x35x80 см. Материал - пластик с металлическим каркасом.",
     price: 6590,
-    image: "/images/products/product24.webp",
+    image: `${base}/images/products/product24.webp`,
     category: "Шкафы",
     color: "Белый"
   },
@@ -220,7 +222,7 @@ export const products = [
     name: "Шкаф-витрина 'Коллекция'",
     description: "Шкаф с двумя стеклянными дверцами для демонстрации коллекций. Внутренняя подсветка. Габариты 80x40x150 см.",
     price: 14500,
-    image: "/images/products/product25.webp",
+    image: `${base}/images/products/product25.webp`,
     category: "Шкафы",
     color: "Розовый"
   },
@@ -229,7 +231,7 @@ export const products = [
     name: "Шкаф для игрушек 'Детский'",
     description: "Яркий шкаф с четырьмя пластиковыми контейнерами. Габариты 70x40x90 см. Безопасные закругленные углы.",
     price: 4890,
-    image: "/images/products/product26.webp",
+    image: `${base}/images/products/product26.webp`,
     category: "Шкафы",
     color: "Розовый"
   },
@@ -238,7 +240,7 @@ export const products = [
     name: "Табурет 'Складной'",
     description: "Легкий складной табурет высотой 45 см. Максимальная нагрузка 100 кг. Материал - металлический каркас и пластиковое сиденье.",
     price: 1290,
-    image: "/images/products/product27.webp",
+    image: `${base}/images/products/product27.webp`,
     category: "Стулья",
     color: "Красный"
   },
@@ -247,7 +249,7 @@ export const products = [
     name: "Кресло офисное 'Эрго'",
     description: "Ортопедическое офисное кресло с регулируемой высотой и подлокотниками. Сетчатая спинка обеспечивает вентиляцию.",
     price: 8990,
-    image: "/images/products/product28.webp",
+    image: `${base}/images/products/product28.webp`,
     category: "Стулья",
     color: "Красный"
   },
@@ -256,7 +258,7 @@ export const products = [
     name: "Стол барный 'Высота'",
     description: "Высокий стол для кухонных островов и барных стоек. Высота 110 см, диаметр столешницы 60 см. Металлическая ножка с деревянной столешницей.",
     price: 7890,
-    image: "/images/products/product29.webp",
+    image: `${base}/images/products/product29.webp`,
     category: "Столы",
     color: "Желтый"
   },
@@ -265,7 +267,7 @@ export const products = [
     name: "Столик прикроватный 'Ночной'",
     description: "Небольшой столик с одной полкой. Высота 55 см, диаметр столешницы 40 см. Материал - МДФ с декоративным покрытием.",
     price: 2490,
-    image: "/images/products/product30.webp",
+    image: `${base}/images/products/product30.webp`,
     category: "Столы",
     color: "Розовый"
   }
