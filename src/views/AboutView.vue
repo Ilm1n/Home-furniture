@@ -4,7 +4,7 @@
       <div class="hero-content">
         <h1>О компании Home</h1>
         <p class="hero-subtitle">
-          Создаём экологичную мебель для вашего уюта с 2012 года
+          Создаём экологичную мебель для вашего уюта с 2010 года
         </p>
       </div>
       <div class="hero-decoration">
@@ -87,7 +87,7 @@
       <h2>Этапы развития</h2>
       <div class="timeline">
         <div class="timeline-item">
-          <div class="timeline-year">2012</div>
+          <div class="timeline-year">2010</div>
           <div class="timeline-content">
             <h3>Основание компании</h3>
             <p>Первая мастерская в Подмосковье, 5 сотрудников</p>
@@ -179,7 +179,7 @@
 </template>
 
 <script setup>
-const base = import.meta.env.BASE_URL
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style scoped>
