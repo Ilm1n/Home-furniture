@@ -53,7 +53,7 @@
           <div class="category-icon-container">
             <img
               class="category-icon"
-              :src="'/Home-furniture/cat-icon' + (index + 1) + '.svg'"
+              :src="base + 'cat-icon' + (index + 1) + '.svg'"
               alt=""
             />
           </div>
@@ -211,7 +211,7 @@ import { products } from "@/data/products";
 
 const productList = ref(products);
 
-const base = import.meta.env.BASE_URL
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style>
